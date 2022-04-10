@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input {
+    width: 300px;
+    height: 20px;
+}
+
+.time_container {
+    height: 250px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.info_container {
+    background-color: #fff;
+    width: 300px;
+    height: 150px;
+    box-shadow: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
